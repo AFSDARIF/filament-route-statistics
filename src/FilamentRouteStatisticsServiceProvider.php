@@ -1,8 +1,8 @@
 <?php
 
-namespace Amendozaaguiar\FilamentRouteStatistics;
+namespace Afsdarif\FilamentRouteStatistics;
 
-use Amendozaaguiar\FilamentRouteStatistics\Widgets\RouteStatisticsOverview;
+use Afsdarif\FilamentRouteStatistics\Widgets\RouteStatisticsOverview;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
 use Livewire\Livewire;
