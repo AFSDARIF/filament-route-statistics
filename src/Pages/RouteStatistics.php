@@ -23,7 +23,7 @@ class RouteStatistics extends Page implements HasTable
 
     protected static string | BackedEnum | null $navigationIcon = 'heroicon-o-chart-bar-square';
 
-    protected static string $view = 'filament-route-statistics::pages.route-statistics';
+    protected string $view = 'filament-route-statistics::pages.route-statistics';
 
     protected static string | UnitEnum | null $navigationGroup = 'Statistics';
 
