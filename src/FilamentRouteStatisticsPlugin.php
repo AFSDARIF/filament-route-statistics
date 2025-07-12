@@ -1,9 +1,9 @@
 <?php
 
-namespace Amendozaaguiar\FilamentRouteStatistics;
+namespace Afsdarif\FilamentRouteStatistics;
 
-use Amendozaaguiar\FilamentRouteStatistics\Pages\RouteStatistics;
-use Amendozaaguiar\FilamentRouteStatistics\Widgets\RouteStatisticsOverview;
+use Afsdarif\FilamentRouteStatistics\Pages\RouteStatistics;
+use Afsdarif\FilamentRouteStatistics\Widgets\RouteStatisticsOverview;
 use Filament\Contracts\Plugin;
 use Filament\Panel;
 
