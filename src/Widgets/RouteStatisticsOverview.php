@@ -10,7 +10,7 @@ use Illuminate\Support\Carbon;
 
 class RouteStatisticsOverview extends BaseWidget
 {
-    protected static ?string $pollingInterval = '60s';
+    protected ?string $pollingInterval = '60s';
 
     public static function getAggregate(): string
     {
