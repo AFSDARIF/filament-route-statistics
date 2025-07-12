@@ -14,15 +14,18 @@ use Filament\Tables\Filters\SelectFilter;
 use Filament\Tables\Table;
 use Illuminate\Database\Eloquent\Builder;
 
+use BackedEnum;
+use UnitEnum;
+
 class RouteStatistics extends Page implements HasTable
 {
     use InteractsWithTable;
 
-    protected static ?string $navigationIcon = 'heroicon-o-chart-bar-square';
+    protected static string | BackedEnum | null $navigationIcon = 'heroicon-o-chart-bar-square';
 
     protected static string $view = 'filament-route-statistics::pages.route-statistics';
 
-    protected static ?string $navigationGroup = 'Statistics';
+    protected static string | UnitEnum | null $navigationGroup = 'Statistics';
 
     protected static string $userName = 'email';
 
